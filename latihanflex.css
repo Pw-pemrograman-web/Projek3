@@ -1,0 +1,50 @@
+
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: grey;
+    height:80px;
+    color: #fff;
+}
+.container{
+    line-height: 80px;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+}
+.container ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.container-Fluid {
+    display: flex;
+}
+.container-fluid aside{
+    height: 100vh;
+    background-color: aqua;
+    flex: 1;
+}
+
+.container-fluid main{
+    background-color: pink;
+    flex: 3;
+}
+
+footer{
+    height: 100px;
+    background-color: grey;
+    text-align: center;
+    color:#fff;
+    line-height: 100px;
+}
+.container-fluid main.card{
+    display: inline-block;
+    background-color: #fff;
+    width: 100px;
+    box-sizing: border-box;
+}
+.container-fluid main .card img {
+    width: 100px;
+}
